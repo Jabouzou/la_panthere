@@ -32,6 +32,10 @@ img {
     padding-bottom: 15px;
  }
 
+#bloc-0 {
+    margin-bottom: 35px;
+}
+
  .form-group,
  #form_1 {
     display: flex;
@@ -42,10 +46,13 @@ img {
 
  #form_1 {
     padding-bottom: 30px;
+    gap: 20px;
  }
 
  .contact {
     font-size: 14px;
+    margin-bottom: 12px !important;
+    font-weight: bold;
  }
 
 .text-center-white {
@@ -66,6 +73,19 @@ img {
 
 #homepage_button {
     margin: 0 2rem 0 1rem;
+}
+
+.btn_homepage {
+    background: #F3976C;
+    color: #FFFFFF!important;
+    padding: 8px 14px 8px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.btn-homepage:hover {
+    background: #c27956!important;
 }
 
 .description {
@@ -615,7 +635,6 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
     text-align: center;
 }
 
@@ -742,10 +761,52 @@ h1 {
     font-size: 15px;
 }
 
+.titles {
+    font-size: 16px !important;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F3976C;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.titles_white {
+    color: white;
+    margin-top: 20px;
+}
+
 .title {
     color: #1A1A1A;
     font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 40px;
     text-align: center;
+}
+
+.img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_style {
+    height: 70%;
+    width: 92%;
+}
+
+.img_text_subtitle {
+    width: 92%;
+}
+
+.img_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
 }
 
 .subtitle {
@@ -756,15 +817,33 @@ h1 {
 }
 
 .quote {
-    font-size: 15px !important;
+    font-size: 13px !important;
     font-style: italic;
+    text-align: center;
     margin: 0px 20px;
     margin-bottom: 20px;
 }
 
 .quote_parent {
+    margin: 30px 0px;
+    display: flex;
+    gap: 20px;
     display: flex;
     flex-direction: column;
+}
+
+.col-sm-12 h2 {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.article_content {
+    font-size: 13px;
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 27px;
 }
 
 .mainlogo {
@@ -817,6 +896,7 @@ p {
 h1 {
     font-size: 16px;
     line-height: 30px;
+    margin-bottom: 30px
 }
 
 .cta-hero {
@@ -891,7 +971,6 @@ h3 {
 
 .portfolio-row {
     margin-bottom: 44px;
-    margin-top: 50px;
 }
 
 .avatar {
@@ -1046,10 +1125,7 @@ h3 {
         text-align: left;
         width: 100%;
     }
-    #homepage_button:hover {
-        color: #c27956;
-    }
-
+   
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
