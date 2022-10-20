@@ -28,6 +28,11 @@ img {
     width: 1px;
  }
 
+ .img_pres {
+    z-index: 0;
+    position: absolute;
+}
+
  .form-group {
     padding-bottom: 15px;
  }
@@ -184,14 +189,6 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/banniere_agence.jpg");
-}
-
-.texture-paper::before {
-    background: url("img/banniere_agence.jpg");
 }
 
 .b-parallax {
@@ -831,7 +828,6 @@ h1 {
 }
 
 .col-sm-12 h2 {
-    font-weight: 700;
     font-size: 17px;
     text-align: justify;
     margin: 20px 0px;
@@ -923,7 +919,6 @@ h1 {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -1023,7 +1018,7 @@ h3 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF;
+    color: #000000;
     cursor: pointer;
 }
 
@@ -1033,7 +1028,7 @@ h3 {
 }
 
 .ltc-white {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .ltc-white:hover {
