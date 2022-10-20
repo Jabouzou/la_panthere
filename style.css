@@ -767,13 +767,13 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #F3976C;
+    color: #8A330A;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.titles_white {
-    color: white;
+.titles_black {
+    color: #000000;
     margin-top: 20px;
 }
 
@@ -837,6 +837,7 @@ h1 {
     font-size: 17px;
     text-align: justify;
     margin: 20px 0px;
+    color: #000000;
 }
 
 @media screen and (min-width: 768px) {
@@ -866,6 +867,7 @@ h1 {
     font-style: italic;
     text-align: justify;
     margin-bottom: 27px;
+    color: #000000;
 }
 
 .mainlogo {
