@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: #000000;
 }
 
 li {
@@ -387,10 +388,7 @@ a:hover {
     text-align: center;
     margin: 0px;
     font-size: 14px;
-}
-
-#bloc-1-hero h1 {
-    font-size: 32px;
+    color: #000000;
 }
 
 .navbar {
@@ -748,12 +746,15 @@ li,
 label,
 .btn {
     font-family: "helvetica";
-    font-weight: 400;;
+    font-weight: 400;
 }
 
 h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #000000;
 }
 
 .titles {
@@ -911,11 +912,6 @@ p {
 }
 
 
-h1 {
-    font-size: 16px;
-    line-height: 30px;
-    margin-bottom: 30px
-}
 
 .cta-hero {
     margin-top: 22px;
