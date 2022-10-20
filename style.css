@@ -370,7 +370,7 @@ a:hover {
 
 .row-no-gutters {
     margin-right: 0;
-    margin-left: 0;
+    margin-left: 0; 
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -818,6 +818,7 @@ h1 {
     text-align: center;
     margin: 0px 20px;
     margin-bottom: 20px;
+    color: #000000;
 }
 
 .quote_parent {
