@@ -111,6 +111,17 @@ img {
     margin-bottom: 22px;
 }
 
+.contact_h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.contact_h2 {
+    color: #000000;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
