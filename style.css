@@ -865,8 +865,8 @@ h1 {
 
 .article_content {
     font-size: 13px;
-    font-style: italic;
-    text-align: justify;
+    font-style: italic;    
+    text-align: center;
     margin-bottom: 27px;
     color: #000000;
 }
