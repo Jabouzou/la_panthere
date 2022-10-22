@@ -61,7 +61,7 @@ img {
     font-weight: bold;
  }
 
-.text-center-white {
+.text-center-black {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +86,6 @@ img {
 
 .btn_homepage {
     background: #F3976C;
-    color: #FFFFFF!important;
     padding: 8px 14px 8px 14px;
     font-size: 12px;
     font-weight: 700;
@@ -1243,11 +1242,11 @@ h3 {
     padding: 0px;
 }
 .footer_content li,
-.text-center-white {
-    color: white !important;
+.text-center-black {
+    color: #000000 !important;
     text-align: center;
 }
 .footer_text,
-.text-center-white {
+.text-center-black {
     font-size: 15px;
 }
