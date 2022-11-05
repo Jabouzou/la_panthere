@@ -33,27 +33,34 @@ img {
     z-index: 0;
     position: absolute;
 }
-
  .form-group {
-    padding-bottom: 15px;
- }
-
-#bloc-0 {
-    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
- .form-group,
+header {
+    margin: 0px 35px;
+}
+
+
  #form_1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 30px 50px;
  }
 
- #form_1 {
-    padding-bottom: 30px;
-    gap: 20px;
- }
+#formcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.wallpaper {
+    height: 100%;
+}
 
  .contact {
     font-size: 14px;
@@ -69,8 +76,11 @@ img {
 
 #navbar {
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.picturewall {
+    height: 280px; 
+    width: 280px;
 }
 
 #navbar_img {
@@ -81,7 +91,7 @@ img {
 #homepage_button {
     margin: 0 2rem 0 1rem;
     position: absolute;
-    left: 0%;
+    left: 93%;
 }
 
 .btn_homepage {
@@ -153,9 +163,10 @@ a:hover {
     position: relative;
 }
 
-.bloc .container {
+.bloc {
     padding-left: 0;
     padding-right: 0;
+    margin: 0px;
 }
 
 .bloc-sm {
@@ -195,9 +206,12 @@ a:hover {
     background: top no-repeat;
 }
 
+.texture-paper::before {
+    background: url(img/reduced_texture.webp);
+    background-size: 280px 280px;
+}
+
 .bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -397,11 +411,19 @@ a:hover {
     margin-left: 0px !important;
 }
 
-.row p {
+.title {
     text-align: center;
     margin: 0px;
-    font-size: 14px;
+    font-size: 14px !important;
     color: #000000;
+    background: white;
+    border-radius: 50px;
+    width: 20%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
 }
 
 .navbar {
@@ -440,6 +462,11 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+}
+
+.bg-dots-bg {
+    background-image: url(img/dots-bg.webp);
+    height: 280px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -616,8 +643,8 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+        border-color: #a19c9c;
+        border-width: 1px;
 }
 
 .scrollToTop {
@@ -885,6 +912,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .mainlogo img {
     width: 70px;
@@ -898,7 +926,12 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.col-sm-12 {
+    padding: 0px 50px !important;
 }
 
 .hero-bloc-text {
