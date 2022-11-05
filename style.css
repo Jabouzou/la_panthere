@@ -94,6 +94,12 @@ header {
     left: 93%;
 }
 
+@media screen and (max-width: 480px) {
+    #homepage_button {
+        left: 75%;
+    }
+}
+
 .btn_homepage {
     background: #F3976C;
     padding: 8px 14px 8px 14px;
@@ -824,6 +830,24 @@ h1 {
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .title {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    
+    .title {
+        width: 55%;
+    }
+}
+
+.smalltext {
+    font-size: 13px;
+    color: #000000;
+}
+
 .img_container {
     display: flex;
     align-items: center;
@@ -837,6 +861,8 @@ h1 {
 
 .img_text_subtitle {
     width: 92%;
+    font-size: 15px;
+    color: #000000;
 }
 
 .img_text {
@@ -987,7 +1013,7 @@ p {
     margin-bottom: 25px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .col-sm-3 {
         width: 8%;
     }
